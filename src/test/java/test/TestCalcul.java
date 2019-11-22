@@ -40,6 +40,11 @@ public class TestCalcul {
 		assertNotEquals(8, subject.multiplication(-2, 5));
 	}
 	
+	@Test
+	public void testMul2() {
+		assertEquals(0, subject.multiplication(0, 3));
+	}
+	
 	
 
 }
